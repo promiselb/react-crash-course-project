@@ -1,0 +1,179 @@
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+		What is Prompt Engineering		
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+Specify, context, technical language
+
+--------------------------------------------------------------
+
+Controlling length and formatting
+
+--------------------------------------------------------------
+
+Breaking down tasks
+
+--------------------------------------------------------------
+
+Prompt iteratively:
+1. Prompt
+2. Evaluate
+3. Repeat
+
+--------------------------------------------------------------
+
+Optimize Prompts:
+1. Prompt ChatGPT to ask clarifying questions your prompt
+2. Answer ChatGPT clarifying questions.
+3. When ChatGPT returns an optimize, feed the promt back to ChatGPT
+4. Success!
+
+--------------------------------------------------------------
+
+Role-Based Prompting:
+Act as...
+You are a...
+
+1. Use phrases like "Ace as a..." and "You are a..." 
+to prompt ChatGPT to assume a certain role
+2. Prompt ChatGPT to ask clarifying questions
+3. Assume a role to define tech, determine key features, and write use stories.
+
+--------------------------------------------------------------
+
+Prompt with Examples:
+Showing not Telling
+
+--------------------------------------------------------------
+
+Hallucinating:
+1. Limited or incorrect training data
+2. Misinterpretation of the prompt
+3. The way GPT works - tries to determine the 
+likelihood of the next word given sequence of words.
+Trying to optimize in this way sometimes cause GPT models
+to prioritize coherence over correctness
+
+When ChatGPT Hallucinates:
+1. Prompt the model to double check its response and confirm yourself
+2. Break questions or tasks into smaller chunks
+3. Rephrase the question to ask in a different way, 
+be more specific, or provide more context 
+
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+		AI ASSISTED CODDING:
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+Generate code using pseudo language:
+- Prompt to ChatGPT to create or agree or suggest on a pseudo language
+- Prompt to it some prompts using this pseudo language
+
+Like: Create a 	pseudo 	language that	 will 	help me    describe
+to you how to provide sample code for X (or any other topic) Respond
+with a template I can use, as well 	as a sample element (or code)
+
+--------------------------------------------------------------
+
+Generate Edge Cases:
+- Pormpt ChatGPT for n edge cases
+- Pick the ones you want
+- Ask ChatGPT to revise the code bases on those edge cases.
+Include instructions for how to deal with them
+
+--------------------------------------------------------------
+
+Debugging and Error Messages:
+- Run the function. Copy and paste the error message into
+ChatGPT along with the function.
+- Ask the AI to explain the errors as code comments.
+
+--------------------------------------------------------------
+
+Convert Code:
+- Lang to Lang
+- Firle format to another format
+- Framework to framework
+- CSS to Tailwind or components
+
+--------------------------------------------------------------
+
+Documenting Code:
+
+--------------------------------------------------------------
+
+Learn with ChatGPT:
+- Summarize and explain info in a variety of ways
+- Find learning resources
+- Create a study guide and/or schedule
+- Test yourself
+
+Watch Out:
+- Hallucinating
+- Incorrect info
+- Outdated sources
+- Non-existent sources
+
+--------------------------------------------------------------
+
+When to Step Back from AI:
+- You aren't getting the desired result after several iterations
+- You no longer understand the code
+- You are caught in a "Copy, Paste and Pray" Loop
+- The AI seems "dumber" than usual
+- The AI is "forgetful"
+
+--------------------------------------------------------------
+
+The Joy of Lang Models:
+- Get refactor suggestions
+- Convert code from one format to another
+- Write tests and documentation
+- Learn new technologies and advanced topics faster
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+		Using AI Language Models for Job Search
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+Generate, Learn and Practice Algorithmic Code Challenges:
+(Works best with easy and medium level challenges)
+- Solve and explain challenges directly
+- Generate code challenges
+- Generate pseudocode or step by step instructions for how to solve
+- Learn about and analyze sample solutions
+- Study patterns for solving algo problems and generate sample problems
+
+
+--------------------------------------------------------------
+
+Review and Analyze Code:
+- Generate code reviews for:
+	- General improvements
+	- Learn/study time and space complexity, describe big O
+- Study multiple solutions to the same problem, 
+with differing time and space complexities
+
+--------------------------------------------------------------
+
+Get Live Code Interview Advice and Practice:
+
+--------------------------------------------------------------
+
+Help Writing Job Search Docs:
+- Help with resumes, cover letters, elevator pitches,
+ talking about your accomplishments
+- A good starting place but not a destination
+- Best for incremental improvements (tailoring
+specific parts of a resume or cover letter)
+- Prompt to interview and personalize for best results
