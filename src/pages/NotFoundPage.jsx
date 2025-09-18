@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaExclamationTriangle } from 'react-icons/fa';
 
 const NotFoundPage = () => {
+  useEffect( () => {
+        document.title = 'React Crash | 404'
+    })
   return (
      <section className="text-center flex flex-col justify-center items-center h-96">
       <FaExclamationTriangle className="text-yellow-400 text-6xl mb-4" />

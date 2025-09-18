@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
@@ -21,7 +21,7 @@ const AddJobPage = ({ addJobSubmit }) => {
         const newJob = {
             title,
             type,
-            location,
+            // location,
             location,
             description,
             salary,
@@ -38,6 +38,9 @@ const AddJobPage = ({ addJobSubmit }) => {
         return navigate('/jobs')
     }
     
+    useEffect( () => {
+        document.title = 'React Crash | Add Job'
+    })
     return (
         <section className="bg-indigo-50">
         <div className="container m-auto max-w-2xl py-24">

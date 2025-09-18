@@ -1,4 +1,5 @@
 import { useParams, useLoaderData, useNavigate } from 'react-router-dom'
+import { useEffect } from 'react';
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 import { Link } from 'react-router-dom'; 
 import { toast } from 'react-toastify';
@@ -16,6 +17,10 @@ const JobPage = ({ deleteJob }) => {
       toast.success('Job Deleted Successfully');
       navigate('/jobs')
     }
+
+    useEffect( () => {
+      document.title = `React Crash | ${job.title}`
+    })
   return (
     <>
       
